@@ -1,0 +1,36 @@
+# Python / local runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+.venv/
+venv/
+
+# Heavy experiment artifacts
+data/
+results/
+external/
+*.hdf5
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Generated media and logs
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
+*.log
+wandb/
+runs/
+
+# Local app / agent state
+.agents/
+.codex/
